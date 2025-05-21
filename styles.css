@@ -1,0 +1,120 @@
+*{
+    @import url('https://fonts.cdnfonts.com/css/samsung-sans-4');
+font-family: 'Samsung Sans', sans-serif;
+}
+
+h1{
+    background: #ed652b;
+background: linear-gradient(90deg, rgba(237, 101, 43, 1) 16%, rgba(255, 115, 0, 1) 34%, rgba(136, 166, 70, 1) 55%, rgba(81, 224, 217, 1) 78%, rgba(255, 0, 242, 1) 100%);
+background-clip: text;
+color: transparent;
+}
+
+body{
+background: #000000;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 18%, rgba(24, 51, 47, 1) 40%, rgba(25, 117, 117, 1) 60%, rgba(101, 224, 179, 1) 76%, rgba(77, 247, 245, 1) 90%, rgba(0, 255, 242, 1) 100%);
+
+@import url('https://fonts.cdnfonts.com/css/samsung-sans-4');
+font-family: 'Samsung Sans', sans-serif;
+color: aqua;                                                                   
+width: 500px;                
+}
+
+fieldset{
+    border: 3px solid green;
+    border-radius: 20px;
+}
+
+p{
+    padding-left: 50px;
+}
+button{
+    float: left;
+    margin-left: 150px;
+}
+input{
+    color: rgb(9, 42, 92);
+}
+input:required{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+input:optional{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+
+input:read-only{
+    background-color:burlywood;
+    color: black;
+}
+
+input[type="radio"]:checked{
+    height: 15px;
+    width: 15px;
+}
+
+input[type="radio"]:checked+label{
+     color: chartreuse;
+    
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    float: left;
+    margin-left: 100px;
+}
+
+input[type="reset"]{
+    float: left;
+    margin-left: 100px;
+}
+
+select{
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input:focus{
+    background: #2d453d;
+background: linear-gradient(90deg, rgba(45, 69, 61, 1) 30%, rgba(77, 247, 245, 1) 67%, rgba(0, 255, 242, 1) 100%);
+}
+
+input[type="text"]+span{
+    display: none;
+}
+input[type="text"]:hover+span{
+    display: inline;
+}
+
+input[type="tel"]+span{
+    display: none;
+}
+input[type="tel"]:hover+span{
+    display: inline;
+}
+
+input[type="date"]+span{
+    display: none;
+}
+input[type="date"]:hover+span{
+    display: inline;
+}
+img{
+    display: none;
+}
+
+input[type="email"]:focus:valid~img#valid{
+    display: inline;
+}
+
+input[type="email"]:focus:invalid~img#invalid{
+    display: inline;
+}
+
+

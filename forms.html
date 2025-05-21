@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <marquee behavior="" direction="right"><h1>Course Registration Form </h1></marquee>
+   
+<form action="response.html" autocomplete="" target="_blank">
+    <fieldset>
+        <legend>Person Details</legend>
+        <table>
+        <tr>
+         <td><label for="" > First Name </label></td>
+         <td><input type="text" required placeholder="Ex: dillip" name="first_name">
+        <span>Enter your name </span></td>
+        </tr>
+         <tr>
+            <td><label for=""> SurName</label></td>
+            <td><input type="text" name="surname">
+            <span>enter your surname</span></td>
+        </tr>
+        <tr>
+            <td><label for="">Mobile number</label></td>
+            <td><input type="tel" required placeholder="9874753467" name="mobileNo" >
+            <span>Enter your Mobile Number</span></td>
+        </tr>
+        <tr>
+            <td><label for="">Email</label></td>
+            <td><input type="email" required placeholder="Ex:dillip@gmail.com" name="email" id="">
+        <img id="valid" src="tick.webp" alt="" height="15" width="20">
+        <img id="invalid" src="into.png" alt="" height="15" width="20"></td>
+        </tr>
+        <tr>
+            <td><label for="">password</label></td>
+            <td><input type="password" required name="password" id="" minlength="8" ></td>
+        </tr>
+        <tr>
+            <td><label for="">Confirm password</label></td>
+            <td><input type="password" required name="cpassword" id=""></td>
+        </tr>
+
+        <tr>
+            <td><label for="">DOB</label></td>
+            <td><input type="date" required name="DOB" id="">
+            <span>Enter the Date of Birth</span></td>
+        </tr>
+
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td>
+            <input type="radio" name="Gender" id="" value="m"> <label for="">Male</label>
+            <input type="radio" name="Gender" id="" value="f"> <label for="">Female</label>
+            <input type="radio" name="Gender" id="" value="o"> <label for="">Others</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="">Select Country</label></td>
+            <td><select name="Country" id=""> 
+            <option value="IND">INDIA</option>
+            <option value="USA">USA</option>
+            <option value="GER">GERMANY</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td><label for="">Upload Picture</label></td>
+            <td><input type="file" name="pic"></td>
+        </tr>
+
+        <tr>
+            <td ><input type="reset"  ></td>
+        </tr>
+    
+        </table>
+    </fieldset>  
+
+
+     <fieldset>
+        <legend>Course Details</legend>
+        <table>
+            <tr>
+                <td><label for="">Select Course</label></td>
+                <td><select name="" id="">
+                    <option value="">JAVA FULL STACK</option>
+                    <option value="">DEVOPS</option>
+                    <option value="">DATA ANALYTICS</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Delivery Mode</td>
+                <td>
+                    <input type="radio" name="Delivery Mode"> <label for="">Online</label> 
+                    <input type="radio" name="Delivery Mode"> <label for="">Offline</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Comments</label></td>
+                <td><textarea name="" id="" rows="10" cols="25" placeholder="write whats runnig in your mind"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+     </fieldset>
+    
+</form>
+<P> click here to download course contents</P>
+<button><a href="list of chapters.pdf" download="">Download</a></button>
+
+
+</body>
+</html>
